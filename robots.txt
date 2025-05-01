@@ -1,17 +1,3 @@
 User-agent: *
-Allow: /                  # اجازه دسترسی به تمام صفحات
-Disallow: /private/       # مسدودسازی پوشه‌های حساس
-Disallow: /temp/          # مسدودسازی فایل‌های موقت
-Disallow: /search/        # مسدودسازی نتایج جستجوی داخلی (اگر دارد)
-
-# تنظیمات ویژه برای ربات‌های مهم:
-User-agent: Googlebot
-Allow: /                  # اولویت به گوگل
-Crawl-delay: 2            # کاهش فشار سرور
-
-User-agent: Bingbot
-Crawl-delay: 3            # تنظیم سرعت کراول برای بینگ
-
-# لینک سایت‌مپ‌ها:
-Sitemap: https://syavoshan.ir/sitemap.xml
-Sitemap: https://syavoshan.ir/sitemap-images.xml  
+  Allow: /
+  Sitemap: https://syavoshan.ir/sitemap.xml
