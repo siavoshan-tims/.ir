@@ -14,4 +14,4 @@ Crawl-delay: 3            # تنظیم سرعت کراول برای بینگ
 
 # لینک سایت‌مپ‌ها:
 Sitemap: https://syavoshan.ir/sitemap.xml
-Sitemap: https://syavoshan.ir/sitemap-images.xml (اگر دارید)
+Sitemap: https://syavoshan.ir/sitemap-images.xml  
